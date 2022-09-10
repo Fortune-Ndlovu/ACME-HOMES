@@ -1,0 +1,1075 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* VERY TOP HEADER */
+#top {
+    position: fixed;
+    z-index: 2;
+    top: 0px;
+    left: 0;
+    right: 0;
+    background-color: #2a559a;
+    padding: 12px 0;
+}
+
+#top,
+#top a {
+    color: #fff;
+}
+
+#top a:hover {
+    color: #FF9C99;
+    text-decoration-line: none;
+}
+
+
+#top .social {
+    text-align: right;
+}
+
+#top .social i {
+    margin: 0 6px;
+}
+
+/* NAVIGATION */
+nav a {
+    color: rgb(64 39 38);
+}
+
+nav {
+    position: fixed;
+    top: 44px;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 6px 6px -2px rgba(0, 0, 0, .2);
+}
+
+dl,
+ol,
+ul {
+    margin-bottom: 0rem;
+}
+
+ul.nav-links {
+    padding-right: 5px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    margin-top: 2;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 600;
+    margin: 2px;
+    padding: 0 12px 12px 0;
+}
+
+nav a:hover {
+    color: #FF9C99;
+}
+
+a.logo {
+    padding-left: 20px;
+}
+
+/* NAV DROPDOWNS */
+nav ul ul {
+    display: none;
+    position: absolute;
+    left: -32px;
+    width: 160px;
+    border-top: 6px solid #ff656a;
+    padding: 12px 0;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.15);
+    background-color: white;
+}
+
+nav ul ul li {
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+
+}
+
+nav li:hover ul {
+    display: block;
+}
+
+/*HAMBURGER MENU*/
+.hamburger {
+    display: none;
+    font-size: 44px;
+    user-select: none;
+    color: rgb(64 39 38);
+    border: none;
+    padding-right: 10px;
+    cursor: pointer;
+    background-color: #ffffff00;
+}
+
+/* We build Homes for families using structure for support */
+.hero {
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-weight: 500;
+    font-size: 40px;
+    padding-top: 240px;
+}
+
+.hero span {
+    border-bottom: 3px solid #FF9C99;
+}
+
+section.hero-section {
+    background-image: url(../img/acme_image.jpg);
+    height: 536px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* ACME HOMES, Build’s Warm, Comfortable Homes */
+section.acme-builds {
+    background-color: rgba(217, 255, 219, 0.2);
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.acme-builds h2,
+section.acme-builds p,
+section.acme-builds ul {
+    color: rgba(64, 39, 38, 1);
+}
+
+section.acme-builds .col {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+section.acme-builds ul {
+    list-style: none;
+    display: grid;
+    gap: 30px;
+    font-size: large;
+}
+
+section.acme-builds li i {
+    color: #81CC66;
+    background-color: transparent;
+    padding-right: 10px;
+}
+
+
+/* We help bring your dream home to life */
+section.acme-helps {
+    text-align: center;
+    margin-top: 6%;
+}
+
+section.acme-helps h2,
+section.acme-helps p,
+section.acme-helps h5,
+section.acme-helps ul {
+    color: rgb(64 39 38);
+}
+
+section.acme-helps h5 {
+    color: rgba(64, 39, 38, 1);
+    font-weight: 600;
+}
+
+section.acme-helps ul {
+    list-style: none;
+    /* padding-left: 0px; */
+}
+
+section.acme-helps img {
+    border-radius: 10px 10px 0px 0px;
+    max-width: 100%;
+    height: auto;
+}
+
+.timber-intro,
+.solar-intro,
+.passive-intro {
+    background-color: rgb(255, 235, 247);
+    border-radius: 0px 0px 10px 10px;
+    padding: 15px 20px;
+
+}
+
+.houses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+/* We are trusted by more than 5000 clients */
+section.acme-trusted {
+    margin-top: 6%;
+}
+
+section.acme-trusted .col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.acme-trusted article {
+    padding: 30px;
+    background-color: rgb(239 241 247 / 80%);
+    position: relative;
+    left: -100px;
+    color: rgba(64, 39, 38, 1);
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 10px 10px 0px;
+}
+
+section.acme-trusted {
+    border-radius: 10px 0px 0px 10px;
+}
+
+/* Request for a email or call back */
+section.callback {
+    background-color: rgba(64, 39, 38, 1);
+    height: 500px;
+    margin-top: 6%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.callback h3 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+section.callback button {
+    width: 100%;
+}
+
+section.callback form .mb-3 {
+    padding-bottom: 8px;
+}
+
+label {
+    cursor: pointer;
+}
+
+.btn:hover {
+    border: 1px solid #eda7ab9f;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.request-content {
+    flex: 2 1 0;
+}
+
+.form-wrapper {
+    flex: 2 1 0;
+}
+
+/* Footer SECTION (WHITE) */
+footer {
+    background-color: white;
+    color: rgb(64 39 38);
+    margin-top: 3%;
+    margin-bottom: 1.5%;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.footer-icons {
+    gap: 10px;
+    display: flex;
+}
+
+.footer-tittle a:hover {
+    color: #FF9C99;
+    text-decoration-line: none;
+}
+
+.footer-copy-right a:hover {
+    color: #FF9C99;
+    text-decoration-line: none;
+}
+
+footer ul li a,
+footer h4,
+.footer-copy-right {
+    color: rgb(64 39 38);
+}
+
+footer ul li {
+    list-style: none;
+}
+
+
+/* /******************************************* about.html **/
+
+/* about.html SECTION FIRST IMAGE */
+
+section.about-hero-section {
+    background-image: url("../img/energy effiensy.jpg");
+    height: 536px;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+section.about-hero-section h1 {
+    margin-top: 190px;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+/* What is energy efficiency? */
+section.energy-efficieny-section {
+    margin-top: 6%;
+}
+
+.two-energy-blocks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+section.energy-efficieny-section img {
+    height: auto;
+}
+
+
+/* brand area */
+.brand-area {
+    background: rgb(239 241 247 / 80%);
+    padding-top: 60px;
+    margin-top: 6%;
+    padding-bottom: 60px;
+}
+
+.row-03 img {
+    padding-left: 40px;
+}
+
+.brand-area p {
+    color: black;
+}
+
+.single-brand {
+    text-align: center;
+}
+
+
+img,
+svg {
+    align-items: center;
+}
+
+/* OUR ACME FOUNDERS */
+
+section.acmehome-founders-section {
+    margin-top: 6%;
+}
+
+.acmehome-founders-title {
+    text-align: center;
+}
+
+.co-founders {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.co-founders img {
+    border-bottom: 6px solid #ff656a;
+}
+
+/* TIMBER FRAME */
+/* APPEARANCE & INSULATION */
+section.service-section {
+    margin-top: 17%;
+    color: rgb(64 39 38);
+    ;
+}
+
+.timber-frame-title {
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.timber-blocks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timber-home {
+    padding-left: 25px;
+    padding-right: 25px
+}
+
+.appearance {
+    padding-left: 50px;
+}
+
+.insulation {
+    padding-right: 50px;
+}
+
+/* ENERGY CONSERVATION & ECOLOGICALLY-FRIENDLY */
+article.energy-ecologically-article {
+    margin-top: 6%;
+}
+
+.energy-ecologically-blocks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.energy-conservation {
+    padding-left: 25px;
+    padding-right: 25px
+}
+
+.energy-ecologically-home {
+    padding-left: 50px;
+}
+
+.ecologically-friendly {
+    padding-right: 50px;
+}
+
+/* /******************************************* technical_build.html **/
+/* Timber Frame Technical Details */
+/* Timber Frame Wall Systems */
+section.technical-section {
+    margin-top: 17%;
+}
+
+section.technical-section h1 {
+    padding-bottom: 30px;
+}
+
+.tech-title {
+    text-align: center;
+}
+
+.technical-timber {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timber-system {
+    padding-left: 50px;
+    padding-right: 25px;
+}
+
+.technical-image {
+    padding-left: 25px;
+    padding-right: 50px;
+}
+
+/* ULTIMA Wall Systems */
+section.technical-section-ultrawall {
+    margin-top: 6%;
+}
+
+.technical-ultrawall {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ultrawall-image {
+    padding-left: 50px;
+    padding-right: 25px;
+}
+
+.ultrawall-systems {
+    padding-left: 25px;
+    padding-right: 50px;
+}
+
+/* Features of ULTIMA Wall System */
+section.technical-section-2 {
+    margin-top: 6%;
+}
+
+section.technical-section-2 h1 {
+    text-align: center;
+}
+
+.technical-block-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* The Acme Gallery */
+section.acmehomes-planning-section {
+    margin-top: 17%;
+}
+
+.acmehomes-gallery-title h2 {
+    text-align: center;
+}
+
+.acmehomes-gallery-planning {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+aside.acmehomes-profile-aside {
+    border: 6px solid #ff9c99;
+    width: 296px;
+    height: 303px;
+}
+
+.acmehomes-profile {
+    padding: 20px;
+}
+
+.acmehomes-profile h3 {
+    border-bottom: 6px solid #ff9c99;
+    padding-bottom: 22px;
+}
+
+.acmehomes-gallery-planning img {
+    border-bottom: 6px solid #ff9c99;
+}
+
+.acmehomes-gallery-title h2 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* GALLERY IMAGES */
+section.gallery-section-0 {
+    margin-top: 6%;
+}
+
+section.gallery-section-0 img {
+    border-bottom: 3px solid #FF9C99;
+}
+
+.gallery-block-row-0 {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 50px;
+}
+
+.block-row-0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* testimonials.html */
+.testimonials-title h2 {
+    margin-top: 17%;
+    text-align: center;
+}
+
+.testimonials-section {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 6%;
+}
+
+#testimonials-box {
+    width: 80vw;
+    max-width: 41em;
+    min-height: 26em;
+    display: block;
+}
+
+.img-con {
+    position: absolute;
+}
+
+.img-con img {
+    height: 1px;
+    width: 1px;
+}
+
+
+.wrapper {
+    background-color: #ffffff;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 0.6em;
+    -webkit-box-shadow: 0 1.8em 3em rgba(1, 17, 39, 0.15);
+    box-shadow: 0 1.8em 3em rgba(1, 17, 39, 0.15);
+}
+
+.testimonial-container {
+    width: 85%;
+    height: 100%;
+    position: relative;
+    margin: auto;
+    padding: 1.8em 1.2em;
+}
+
+.testimonial-container p {
+    color: #8c8c90;
+    text-align: center;
+    font-size: 0.9em;
+    line-height: 2em;
+    letter-spacing: 0.05em;
+}
+
+.testimonial-container img {
+    display: block;
+    margin: 1.8em auto 1.25em auto;
+    border-radius: 50px;
+    width: 4.4em;
+}
+
+.testimonial-container h3 {
+    color: #2d3d67;
+    font-size: 1em;
+    text-align: center;
+}
+
+.testimonial-container h6 {
+    color: #bcc4da;
+    font-size: 0.9em;
+    letter-spacing: 0.03em;
+    font-weight: 400;
+    text-align: center;
+}
+
+.wrapper button {
+    font-size: 1.8em;
+    color: #0a69ed;
+    height: 2.2em;
+    width: 2.2em;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 1em rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+button#next {
+    right: -1.1em;
+}
+
+button#prev {
+    left: -1.1em;
+}
+
+
+@media screen and (max-width: 650px) {
+    .wrapper {
+        font-size: 14px;
+    }
+}
+
+/* MEDIA QURIES rgb(64 39 38);*/
+@media screen and (max-width: 1150px) {
+
+    /* GALLERY */
+    aside.acmehomes-profile-aside {
+        border: 6px solid #ff9c99;
+        width: 200px;
+        height: 390px;
+    }
+}
+
+@media screen and (max-width: 962px) {
+
+    /* GALLERY */
+    .acmehomes-gallery-planning {
+        gap: 25px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+
+    /* index.html start */
+    /* NAVIGATION */
+    #top {
+        display: none;
+    }
+
+    #topMenu {
+        top: 0px;
+    }
+
+    .menu {
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 16px 0;
+        top: 80px;
+        box-shadow: 0 6px 6px -2px rgba(0, 0, 0, .2);
+    }
+
+    .menu li + li {
+        margin-top: 12px;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .nav .container {
+        width: 100%;
+    }
+
+    .nav .navbar li {
+        padding: 10px 10px;
+    }
+
+    .nav .navbar.hidden {
+        display: block;
+        display: grid;
+        justify-content: center;
+    }
+
+    nav ul ul {
+        left: -4px;
+        z-index: 1;
+        left: -43px;
+        width: 245px;
+    }
+
+    footer ul {
+        padding-left: 0rem;
+    }
+
+    /* GALLERY */
+    .acmehomes-gallery-planning {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    aside.acmehomes-profile-aside {
+        border: 6px solid #ff9c99;
+        width: 296px;
+        height: 286px;
+    }
+
+    /* GALLERY IMAGES */
+    .gallery-block-row-0 {
+        flex-direction: column;
+    }
+
+    .main-image-0 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .block-row-0 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    /* testimonials.html */
+    .testimonials-title h2 {
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    /* index.html start */
+    /* NAVIGATION */
+    #top {
+        display: none;
+    }
+
+    #topMenu {
+        top: 0px;
+    }
+
+    .menu {
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 16px 0;
+        top: 80px;
+        box-shadow: 0 6px 6px -2px rgba(0, 0, 0, .2);
+    }
+
+    .menu li + li {
+        margin-top: 12px;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .nav .container {
+        width: 100%;
+    }
+
+    .nav .navbar li {
+        padding: 10px 10px;
+    }
+
+    .nav .navbar.hidden {
+        display: block;
+        display: grid;
+        justify-content: center;
+    }
+
+    nav ul ul {
+        left: -4px;
+        z-index: 1;
+        left: -43px;
+        width: 245px;
+    }
+
+    /* ACME HOMES, Build’s Warm, Comfortable Homes */
+    section.acme-builds {
+        height: 600px;
+    }
+
+    /* We help bring your dream home to life */
+    .houses {
+        flex-direction: column;
+    }
+
+    /* We are trusted by more than 5000 clients */
+    section.acme-trusted img {
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    section.acme-trusted article a {
+        width: 100%;
+    }
+
+    section.acme-trusted article {
+        position: unset;
+        border-radius: 10px;
+    }
+
+    /* Request for a email or call back */
+    .form-container {
+        flex-direction: column;
+    }
+
+    .form-container {
+        display: unset;
+    }
+
+    section.callback {
+        height: 850px;
+    }
+
+    .request-content {
+        flex: 2 1 0;
+        padding-bottom: 50px;
+    }
+
+    /* Footer SECTION (WHITE) */
+    .footer-menu {
+        flex-direction: column;
+        gap: 70px;
+        text-align: center;
+    }
+
+    .footer-icons {
+        display: unset;
+    }
+
+    .footer-icons a {
+        padding: 10px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 41px;
+    }
+
+    .footer-links li {
+        padding-bottom: 20px;
+    }
+
+    /* /******************************************* about.html **/
+
+    /* What is energy efficiency? */
+    .two-energy-blocks {
+        flex-direction: column;
+    }
+
+    /* OUR ACME FOUNDERS */
+    .co-founders {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    /* /******************************************* service_build.html **/
+    section.service-section {
+        text-align: center;
+    }
+
+    section.service-section h1 {
+        padding-top: 100px;
+    }
+
+    /* TIMBER FRAME */
+    /* APPEARANCE & INSULATION */
+    /* ENERGY CONSERVATION & ECOLOGICALLY-FRIENDLY */
+    .timber-blocks,
+    .energy-ecologically-blocks {
+        flex-direction: column;
+    }
+
+    .timber-home,
+    .appearance,
+    .insulation,
+    .energy-conservation,
+    .energy-ecologically-home,
+    .ecologically-friendly {
+        padding-right: 50px;
+        padding-bottom: 50px;
+        padding-left: 50px;
+    }
+
+    /* /******************************************* technical_build.html **/
+    /* Timber Frame Technical Details */
+    /* Timber Frame Wall Systems */
+    .technical-timber {
+        flex-direction: column;
+    }
+
+    section.technical-section h1 {
+        padding-top: 100px;
+    }
+
+    .timber-system {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .technical-image {
+        padding-bottom: 50px;
+    }
+
+    .timber-system {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .technical-image {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    /* ULTIMA Wall Systems */
+    /* section.technical-section-ultrawall {
+        margin-top: 6%;
+    } */
+
+    .technical-ultrawall {
+        flex-direction: column;
+    }
+
+    .ultrawall-image {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .ultrawall-systems {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .ultrawall-systems {
+        padding-left: 25px;
+        padding-right: 25px;
+        ;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .acmehomes-gallery-title h2 {
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    /* testimonials.html */
+    .testimonials-title h2 {
+        padding-top: 100px;
+    }
+}
