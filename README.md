@@ -3,7 +3,7 @@
 A company website that builds homes.
 
 Note: The development of this website was just for fun and to test my layout skills.
-Images are from; Freepik, Vecteezy, and Unsplash.
+Images are from Freepik, Vecteezy, and Unsplash.
 
 
 ## HTML
